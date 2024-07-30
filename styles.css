@@ -144,7 +144,7 @@ nav ul li a:hover {
 .members {
     border: 2px solid #007bff;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 10px;
     border-radius: 8px;
     background: linear-gradient(135deg, #e0f2f1, #ffffff);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -157,7 +157,7 @@ nav ul li a:hover {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 20px 0;
-    margin: 0 0 20px 0;
+    margin: 10px 10px 20px 10px;
     background: linear-gradient(135deg, #007bff, #00c853);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
