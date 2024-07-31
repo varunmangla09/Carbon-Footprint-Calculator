@@ -2,84 +2,88 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f6f9;
+    background-color: #e0f7fa;
     color: #333;
 }
 
 .container {
-    width: 80%;
+    max-width: 1200px;
     margin: auto;
-    overflow: hidden;
     padding: 30px;
     background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #007bff;
     margin-top: 30px;
-    font-size: 2.5em;
-    font-weight: 700;
+    font-size: 2.8em;
+    font-weight: 900;
+    letter-spacing: 1px;
 }
 
 form {
     background: #ffffff;
     padding: 30px;
     margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 fieldset {
-    border: 1px solid #e0e0e0;
+    border: 2px solid #b3e5fc;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 legend {
     font-weight: bold;
-    font-size: 1.4em;
-    color: #007bff;
-    padding: 0 10px;
+    font-size: 1.6em;
+    color: #00acc1;
+    padding: 0 15px;
+    background: #e0f2f1;
+    border-radius: 8px;
 }
 
 label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     color: #555;
 }
 
 input[type="number"], select {
-    width: calc(100% - 22px);
-    padding: 12px;
+    width: 100%;
+    padding: 14px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #4dd0e1;
+    border-radius: 10px;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
 }
 
 button {
-    background-color: #007bff;
+    background-color: #ff5722;
     color: #ffffff;
     border: none;
     padding: 15px 30px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 12px;
     font-size: 16px;
-    transition: background-color 0.3s, transform 0.2s;
-    font-weight: 600;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 700;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #e64a19;
     transform: translateY(-2px);
 }
 
 button:active {
-    background-color: #003d7a;
+    background-color: #d32f2f;
     transform: translateY(0);
 }
 
@@ -88,20 +92,20 @@ button:active {
 }
 
 #result {
-    background: #eaf6ff;
+    background: #e1f5fe;
     padding: 25px;
-    border-radius: 8px;
-    border: 1px solid #b3e0ff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 2px solid #81d4fa;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 #personalized-tips {
-    background: #e8f4f7;
+    background: #b2dfdb;
     color: #004d40;
     padding: 25px;
-    border-radius: 8px;
-    border: 1px solid #b2dfdb;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 2px solid #80cbc4;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 section {
@@ -111,7 +115,7 @@ section {
 nav {
     background-color: #007bff;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -129,11 +133,11 @@ nav ul li a {
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 16px 24px;
+    padding: 18px 26px;
     text-decoration: none;
-    font-size: 16px;
-    transition: background-color 0.3s, color 0.3s;
-    font-weight: 600;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 700;
 }
 
 nav ul li a:hover {
@@ -142,12 +146,12 @@ nav ul li a:hover {
 }
 
 .members {
-    border: 2px solid #007bff;
+    border: 3px solid #007bff;
     padding: 20px;
     margin: 20px 10px;
-    border-radius: 8px;
-    background: linear-gradient(135deg, #e0f2f1, #ffffff);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background: linear-gradient(135deg, #b3e5fc, #ffffff);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 #mem {
@@ -159,9 +163,9 @@ nav ul li a:hover {
     padding: 20px 0;
     margin: 10px 10px 20px 10px;
     background: linear-gradient(135deg, #007bff, #00c853);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-size: 1.5em;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    font-size: 2em;
 }
 
 #clear-records-button {
@@ -169,16 +173,16 @@ nav ul li a:hover {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #007bff;
+    background-color: #ff5722;
     color: #ffffff;
     border: none;
     padding: 15px 30px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 12px;
     font-size: 16px;
-    transition: background-color 0.3s, transform 0.2s;
-    font-weight: 600;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 700;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1000; 
 }
     
@@ -189,14 +193,14 @@ nav ul li a:hover {
 }
 
 #records-table th, #records-table td {
-    padding: 12px;
+    padding: 14px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
 
 #records-table th {
     background-color: #f1f1f1;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #records-table tr:nth-child(even) {
@@ -214,22 +218,22 @@ nav ul li a:hover {
 }
 
 #articleLinks a {
-    color: #007bff;
+    color: #e94a0b;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 600;
-    transition: color 0.3s, text-decoration 0.3s;
+    font-weight: 700;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
     display: block;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 12px;
+    border-radius: 12px;
 }
 
 #articleLinks a:hover {
-    color: #0056b3;
+    color: #dc6c16;
     text-decoration: underline;
-    background-color: #f1f1f1;
+    background-color: #e3f2fd;
 }
 
 #clear-records-button:hover {
-    background-color: #0056b3;
+    background-color: #e64a19;
 }
